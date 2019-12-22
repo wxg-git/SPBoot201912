@@ -63,3 +63,5 @@ Hi wxg-git! You've successfully authenticated, but GitHub does not provide shell
 
 12： 参考：https://blog.csdn.net/u011535541/article/details/83379151
    
+
+13：注：eclipse关联git,使用的是 Repository的HTTPS地址
