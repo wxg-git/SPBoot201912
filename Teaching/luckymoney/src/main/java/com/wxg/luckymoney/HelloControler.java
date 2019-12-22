@@ -35,6 +35,7 @@ public class HelloControler
 	@RequestMapping("/hello")
 	public String say()
 	{
+		System.out.println("gitTest");
 		return "minMoney:" + limitConfig.getMinMoney() + "description:" + limitConfig.getDescription();
 	}
 
