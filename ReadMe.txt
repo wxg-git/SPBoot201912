@@ -37,5 +37,27 @@ Hi wxg-git! You've successfully authenticated, but GitHub does not provide shell
 
   git add .
 
+7.1：可以通过git status 查看状态
+   
+8:提交文件到本地仓库
+  git commit   或  git commit -m '提交备注信息'
+
+9：重点：添加与远程仓库的关联
+  git remote add 远程仓库名 git@github.com:用户名/仓库名.git
+  git remote -v  //查看关联信息
+  git remote rm  远程库的名字   //解除关联
+
+  我的：
+  git remote add origin git@github.com:wxg-git/SPBoot201912.git 
+
+10:将本地仓库 推送到中央仓库
+   git push -u 远程库名称 master
+   我的
+   git push -u origin master
+
+11:克隆中央仓库
+   git clone git@github.com:用户名/仓库名.git 
+   
+   git clone git@github.com:wxg-git/SPBoot201912.git 
 
 
