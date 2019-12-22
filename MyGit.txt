@@ -52,7 +52,7 @@ Hi wxg-git! You've successfully authenticated, but GitHub does not provide shell
 
 10:将本地仓库 推送到中央仓库
    git push -u 远程库名称 master
-   我的
+   我的（-u 第一次添加远程仓库时加）
    git push -u origin master
 
 11:克隆中央仓库
@@ -61,3 +61,5 @@ Hi wxg-git! You've successfully authenticated, but GitHub does not provide shell
    git clone git@github.com:wxg-git/SPBoot201912.git 
 
 
+12： 参考：https://blog.csdn.net/u011535541/article/details/83379151
+   

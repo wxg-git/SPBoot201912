@@ -1,0 +1,12 @@
+server:
+  port: 8081
+  servlet:
+    context-path: /luckymoney
+        
+minMoney: 2
+description: 最少发${minMoney}块钱！
+
+limit:
+  minMoney: 1
+  maxMoney: 100
+  description: 最少发${limit.minMoney}块钱！
